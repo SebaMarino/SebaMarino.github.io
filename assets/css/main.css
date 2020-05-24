@@ -2116,7 +2116,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 16em;
-		background: url("../../images/greece1.JPG") center center;
+		background: url("../../images/greece_small_size.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2135,7 +2135,7 @@ input, select, textarea {
 			height: 30em;
 		}
 
-	#header_career {
+	#header_pub {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2155,7 +2155,7 @@ input, select, textarea {
 		padding: 0;
 	}
 
-		#header_career:before {
+		#header_pub:before {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -2164,6 +2164,27 @@ input, select, textarea {
 			height: 100%;
 			background: url("images/overlay.png");
 		}
+
+	#header_career {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+		height: 24em;
+		background: url("../../images/mesky.jpg") top center;
+		background-size: cover;
+		padding: 0;
+	}
+
 
 	#header_press {
 		display: -moz-flex;
@@ -2180,7 +2201,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 30em;
-		background: url("../../images/ArtisticRepresentation3.png"); 
+		background: url("../../images/ArtisticRepresentation3.jpg"); 
 		background-size: cover;
 		padding: 0;
 	}
