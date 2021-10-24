@@ -2116,7 +2116,8 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 16em;
-		background: url("../../images/greece_small_size.jpg") center center;
+		background: url("../../images/Jesus_college2.jpg") center center;
+		/* background: url("../../images/greece_small_size.jpg") center center; */
 		background-size: cover;
 		padding: 0;
 	}
@@ -2293,11 +2294,11 @@ input, select, textarea {
 		width: 100%;
 		text-align: center;
 		position: relative;
-		top: 1.5em;
+		top: 10.0em;
 	}
 
 		#logo h1 {
-			font-weight: 900;
+			font-weight: 700;
 			text-transform: uppercase;
 			color: #fff;
 			font-size: 2em;
@@ -2306,9 +2307,9 @@ input, select, textarea {
 
 		#logo p {
 			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 1.0);
 			text-transform: uppercase;
-			margin: 1.25em 0 0 0;
+			margin: 0.00em 0 0 0;
 			display: block;
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
@@ -2328,7 +2329,7 @@ input, select, textarea {
 		#nav[role="main"] > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(55, 55, 55, 0.25);
+			box-shadow: inset 0px 0px 1px 1px rgba(55, 55, 55, 0.5);
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -2352,7 +2353,7 @@ input, select, textarea {
 				#nav[role="main"] > ul > li > a, #nav[role="main"] > ul > li > span {
 					display: block;
 					color: #eee;
-					color: rgba(55, 55, 55, 0.75);
+					color: rgba(55, 55, 55, 1.0);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
