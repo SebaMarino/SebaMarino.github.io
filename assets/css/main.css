@@ -2116,8 +2116,8 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 16em;
-		background: url("../../images/dartmoor.jpg") center center;
-		/* background: url("../../images/Jesus_college3.jpg") center center; */
+		/* background: url("../../images/dartmoor_panorama.jpeg") center center; */
+		background: url("../../images/Jesus_college3.jpg") center center;
 		/* background: url("../../images/greece_small_size.jpg") center center; */
 		background-size: cover;
 		padding: 0;
