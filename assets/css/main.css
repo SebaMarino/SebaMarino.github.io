@@ -2116,7 +2116,8 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 16em;
-		background: url("../../images/Jesus_college3.jpg") center center;
+		background: url("../../images/dartmoor.jpg") center center;
+		/* background: url("../../images/Jesus_college3.jpg") center center; */
 		/* background: url("../../images/greece_small_size.jpg") center center; */
 		background-size: cover;
 		padding: 0;
@@ -2211,8 +2212,8 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		position: relative;
-		height: 14em;
-		background: url("../../images/mesky.jpg") top center;
+		height: 30em;
+		background: url("../../images/me_snow_crop.jpeg") top center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2333,6 +2334,13 @@ input, select, textarea {
 			padding: 0 1.5em 0 1.5em;
 		}
 
+		#nav[role="career"] > ul {
+			display: inline-block;
+			border-radius: 0.35em;
+			box-shadow: inset 0px 0px 1px 1px rgba(55, 55, 55, 0.5);
+			padding: 0 1.5em 0 1.5em;
+		}
+
 		#nav[role="debris"] > ul {
 			display: inline-block;
 			border-radius: 0.35em;
@@ -2358,7 +2366,26 @@ input, select, textarea {
 					text-decoration: none;
 					font-size: 0.7em;
 					font-weight: 500;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.2em;
+					height: 5em;
+					line-height: 5em;
+					-moz-transition: all .25s ease-in-out;
+					-webkit-transition: all .25s ease-in-out;
+					-o-transition: all .25s ease-in-out;
+					-ms-transition: all .25s ease-in-out;
+					transition: all .25s ease-in-out;
+					outline: 0;
+				}
+
+				#nav[role="career"] > ul > li > a, #nav[role="career"] > ul > li > span {
+					display: block;
+					color: #eee;
+					color: rgba(55, 55, 55, 1.0);
+					text-transform: uppercase;
+					text-decoration: none;
+					font-size: 0.6em;
+					font-weight: 500;
+					letter-spacing: 0.2em;
 					height: 5em;
 					line-height: 5em;
 					-moz-transition: all .25s ease-in-out;
@@ -2377,7 +2404,7 @@ input, select, textarea {
 					text-decoration: none;
 					font-size: 0.7em;
 					font-weight: 500;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.2em;
 					height: 5em;
 					line-height: 5em;
 					-moz-transition: all .25s ease-in-out;
